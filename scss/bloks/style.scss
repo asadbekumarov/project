@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 516px;
+  padding: 16px;
+  margin: 0 auto;
+}
+.content {
+  h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+  }
+}
+.calculytor {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 40px -2px rgba(0, 0, 0, 0.45);
+  #window {
+    width: 100%;
+    height: 150px;
+    padding-bottom: 30px;
+    outline: none;
+    font-size: 80px;
+    border: none;
+    color: #000;
+    border-bottom: 1px solid #ebecec;
+  }
+  .number {
+    .raqam {
+      width: 118px;
+      height: 118px;
+      font-size: 30px;
+      border: 1px solid #ebecec;
+      background-color: #ffffff;
+    }
+    .raqam:active {
+      background-color: #c7c7c7;
+      transition: all 0.3s ease-in-out;
+    }
+    .amal {
+      width: 118px;
+      height: 118px;
+      font-size: 30px;
+      color: #2aafd7;
+      border: 1px solid #ebecec;
+      background-color: #f5f7f7;
+      font-weight: 900;
+    }
+    .amal:active {
+      background-color: #c7c7c7;
+      transition: all 0.3s ease-in-out;
+    }
+    .ochirish {
+      width: 362px;
+      height: 118px;
+      border: 1px solid #ebecec;
+      background-color: #f5f7f7;
+      font-size: 30px;
+      font-weight: 900;
+      color: #009ecd;
+    }
+    .ochirish:active {
+      background-color: #c7c7c7;
+      transition: all 0.3s ease-in-out;
+    }
+    .yarim {
+      width: 118px;
+      height: 119px;
+      font-size: 30px;
+      border: 1px solid #ebecec;
+      font-weight: 900;
+      color: #009ecd;
+      background-color: #f5f7f7;
+    }
+    .yarim:active {
+      background-color: #c7c7c7;
+      transition: all 0.3s ease-in-out;
+    }
+    .tenglik {
+      width: 240px;
+      height: 118px;
+      font-size: 30px;
+      font-weight: 900;
+      color: #009ecd;
+      border: 1px solid #ebecec;
+      background-color: #86d681;
+    }
+    .tenglik:active {
+      background-color: #c7c7c7;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
